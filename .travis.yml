@@ -1,0 +1,8 @@
+language: swift
+osx_image: xcode12
+xcode_workspace: NowYouSeeReact.xcworkspace
+xcode_scheme: NowYouSeeReactTests
+xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+before_install:
+  - cd Example/ios
+  - pod install
