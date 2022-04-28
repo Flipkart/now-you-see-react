@@ -39,7 +39,10 @@ static void InitializeFlipper(UIApplication *application) {
 #ifdef FB_SONARKIT_ENABLED
 	InitializeFlipper(application);
 #endif
-	
+
+//        TODO: Changes related to new Architecture should be added
+//        https://raw.githubusercontent.com/react-native-community/rn-diff-purge/release/0.68.1/RnDiffApp/ios/RnDiffApp/AppDelegate.mm
+   
 	RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
 	RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
 													 moduleName:@"NowYouSeeReact"
