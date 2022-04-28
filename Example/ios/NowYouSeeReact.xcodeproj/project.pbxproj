@@ -211,6 +211,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				5CF3B5B44F4AFD0A728F7891 /* [CP] Copy Pods Resources */,
+				9127700CA9508CF6F166C562 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +234,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				D873C73998F8A691FAEA94DA /* [CP] Copy Pods Resources */,
+				6C704B77D001D60550236A4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +354,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NowYouSeeReact-Demo-NowYouSeeReactTests/Pods-NowYouSeeReact-Demo-NowYouSeeReactTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6C704B77D001D60550236A4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NowYouSeeReact-Demo/Pods-NowYouSeeReact-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		846A26112B6A8BB0EF16B860 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +389,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9127700CA9508CF6F166C562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NowYouSeeReact-Demo-NowYouSeeReactTests/Pods-NowYouSeeReact-Demo-NowYouSeeReactTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D873C73998F8A691FAEA94DA /* [CP] Copy Pods Resources */ = {
