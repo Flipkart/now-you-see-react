@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.0",
+    "react-native": "0.70.4",
     "recyclerlistview": "3.0.0"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "eslint": "6.8.0",
     "jest": "25.5.4",
     "metro-react-native-babel-preset": "0.59.0",
-    "react-test-renderer": "16.13.1"
+    "react-test-renderer": "18.1.0"
   },
   "jest": {
     "preset": "react-native"
